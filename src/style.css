@@ -1,0 +1,27 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  font-family: Lato;
+}
+
+.form {
+  margin: 4rem auto;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TextField {
+  margin-bottom: 2rem !important;
+}
+
+.canvas {
+  width: 400px;
+  height: 400px;
+}
